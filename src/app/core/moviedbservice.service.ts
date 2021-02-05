@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { IMovie } from '../share/interfaces';
+import {Storage} from '@ionic/storage';
+
 
 @Injectable({
   providedIn: 'root'
